@@ -7,3 +7,4 @@ Se utiliza de forma muy simple y es muy completo.
 Este script de Powershell se agarra a la politica de copyright por lo cuál, cualquier modificación, o uso distribuido de un software con la misma firma digital de este script, será denunciado y baneado.
 
 Copyright 2021 Andrip. Trying to improve privacy,policies and optimization of SO´s
+Leer el readme del comprimido y seguir las instrucciones para usar el script de manera eficiente.
