@@ -33,7 +33,7 @@ problemas con utf-8 etc.
 
 cc Andrip
 
-LICENCIA ATRIBUIDA AL PROYECTO AQUÍ
+LICENCIA ATRIBUIDA AL PROYECTO AQUÍ https://www.gnu.org/licenses/lgpl-3.0.html
 -----------------------------------
 Codigos scripts powershell.
 
@@ -49,7 +49,6 @@ Hay que llevar el script a disco local (ruta raíz), de hay hacer un cd c: y pos
 Cuando aparezca el nombre del archivo en el dir de la powershell ejecutar el siguiente comando en powershell
 
 .\Windows10DebloaterGUI.ps1
-
 
 
 ATENCIÓN LA POWERSHELL DEBE SER EJECUTADA CON DERECHOS DE ADMINISTRADOR, POR EL CONTRARIO, ALGUNAS FUNCIONES NO IRAN DE LA MANERA CORRECTA.
