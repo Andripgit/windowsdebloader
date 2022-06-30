@@ -1,5 +1,5 @@
 
-
+#Andrip cc
 $ErrorActionPreference = 'silentlycontinue'
 
 $Button = [Windows.MessageBoxButton]::SiNoCancelar
@@ -273,7 +273,7 @@ $StopEdgePDFTakeover.location = New-Object System.Drawing.Point(155, 217)
 $StopEdgePDFTakeover.Font = 'Microsoft Sans Serif,10'
 
 $EnableEdgePDFTakeover = New-Object system.Windows.Forms.Button
-$EnableEdgePDFTakeover.text = "Añadir pdf edge takeover NO"
+$EnableEdgePDFTakeover.text = "AÃ±adir pdf edge takeover NO"
 $EnableEdgePDFTakeover.width = 185
 $EnableEdgePDFTakeover.height = 35
 $EnableEdgePDFTakeover.location = New-Object System.Drawing.Point(155, 260)
@@ -1157,7 +1157,7 @@ $RemoveRegkeys.Add_Click( {
     })
 $UnpinStartMenuTiles.Add_Click( {
 
-        Write-Host "Quitar todos los items del menú principal."
+        Write-Host "Quitar todos los items del menÃº principal."
         (New-Object -Com Shell.Application).
         NameSpace('shell:::{4234d49b-0245-4df3-b780-3893943456e1}').
         Items() |
@@ -1172,13 +1172,13 @@ $RemoveOnedrive.Add_Click( {
             Start-Sleep 1
               
             If (Test-Path "$env:USERPROFILE\Desktop\OneDriveBackupFiles") {
-                Write-Host "Una carpeta llamada OneDriveBackupFiles ya existe en su equipo. Todos los ficheros de OneDrive serán movidos a esa carpeta" 
+                Write-Host "Una carpeta llamada OneDriveBackupFiles ya existe en su equipo. Todos los ficheros de OneDrive serÃ¡n movidos a esa carpeta" 
             }
             else {
                 If (!(Test-Path "$env:USERPROFILE\Desktop\OneDriveBackupFiles")) {
                     Write-Host "Carpeta llamada OneDriveBackupFiles sera creada en tu escritorio. Todos los archivos de tu OneDrive seran redirigidos a esa carpeta y borrado posteriormente."
                     New-item -Path "$env:USERPROFILE\Desktop" -Name "OneDriveBackupFiles"-ItemType Directory -Force
-                    Write-Host "Creada la carpeta de restauración de OneDrive"
+                    Write-Host "Creada la carpeta de restauraciÃ³n de OneDrive"
                 }
             }
             Start-Sleep 1
